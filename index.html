@@ -3,6 +3,41 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta
+        name="description"
+        content="Learn programming, web development, frameworks and all things tech on our interactive e‑learning platform."
+    />
+    <meta
+        name="keywords"
+        content="e‑learning, programming, web development, frameworks, coding, online courses, JavaScript, Python, React, HTML, CSS, Node.js, Spring Boot"
+    />
+    <meta name="author" content="inolearn" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://inolearn.com" />
+
+    <!--Facebook-->
+    <meta property="og:title" content="Inolearn — E‑Learning for Developers" />
+    <meta property="og:description" content="Coming soon: Inolearn, a powerful platform to master development, programming, and modern frameworks." />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/209641641?s=400&v=4" />
+    <meta property="og:url" content="https://inolearn.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="inolearn" />
+    <meta property="article:author" content="https://www.facebook.com/profile.php?id=61578783748635" />
+
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Inolearn — E‑Learning for Developers" />
+    <meta name="twitter:description" content="Programming, web development, frameworks & more — learn interactively with Inolearn." />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/209641641?s=400&v=4" />
+
+    <!--Apple and favicon-->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/209641641?s=400&u=78e4f029c71dcbd8d0e06af2d3e502f025c4917a&v=4"/>
+    <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/209641641?s=400&v=4" />
+
     <title>Coming Soon</title>
     <style>
         body {
@@ -58,13 +93,55 @@
                 height: 120px;
             }
         }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            color: white;
+            background-color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.5em;
+        }
+
+        .social-links a.facebook {
+            background-color: #1877f2;
+        }
+
+        .social-links a.instagram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
         <h1>On Building</h1>
         <img src="https://avatars.githubusercontent.com/u/209641641?s=400&u=78e4f029c71dcbd8d0e06af2d3e502f025c4917a&v=4" alt="Logo" />
-        <p>Notre site est en construction.<br>Revenez bientôt pour découvrir nos nouveautés !</p>
+        <p>Our website is under construction.<br>Come back soon to discover our new features!</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61578783748635" rel="noopener noreferrer" target="_blank" class="facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/ino.learn" target="_blank" class="instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </div>
 </body>
 </html>
